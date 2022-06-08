@@ -2,7 +2,6 @@ package square
 
 // Define custom int type to hold sides number and update CalcSquare signature by replacing #yourTypeNameHere#
 import (
-	"fmt"
 	"math"
 )
 
@@ -31,3 +30,4 @@ func CalcSquare(sideLen float64, sidesNum intCustomType) float64 {
 		return 0
 	}
 }
+
